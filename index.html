@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1 Year. Infinite More.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Hidden Secret Input (MOVED INSIDE BODY) -->
+<input type="text" id="secret-input" placeholder="Type something..." autocomplete="off">
+
+<!-- Music -->
+<audio id="bg-music" loop>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+<button id="music-toggle">🎵</button>
+
+<!-- Landing -->
+<section id="landing">
+    <div class="hero-content">
+        <h1>1 Year. Infinite More.</h1>
+        <p>365 days of choosing you</p>
+        <button id="enter-btn">Enter Our Story</button>
+    </div>
+</section>
+
+<!-- Timeline Section --> <section id="timeline"> <h2>Our Story So Far</h2> <div class="timeline-container"> <div class="timeline-item left"> <div class="timeline-content"> <h3>First Talk</h3> <p>It still feels unreal how something so small became the beginning of something so big. You were removed from that Instagram group, and you messaged me about it. At that moment, it was just a normal conversation, nothing dramatic, nothing planned. We had spoken before in the group, but that message felt different. Looking back now, that tiny mistake became the reason our journey truly began. A random situation, an unexpected text, and somehow, that was the day “us” quietly started.</p> </div> </div> <div class="timeline-item right"> <div class="timeline-content"> <h3>First Fight</h3> <p>I don’t even remember what our first real fight was about. I just remember it was something silly, something small that felt big in the moment. We probably overthought, misunderstood, maybe even got stubborn. But what matters is that we didn’t let it win. We talked, we sorted it out, and somehow ended up laughing by the end of it. And if I’m being honest, that’s exactly how I want our future to be too, disagreements that don’t break us, conversations that fix us, and laughter that reminds us why we chose each other in the first place.</p> </div> </div> <div class="timeline-item left"> <div class="timeline-content"> <h3>Rough Phase 1</h3> <p>There was a time when the gap between us felt bigger than it actually was. Not because of numbers, but because of the weight I was carrying in my own head. I felt overwhelmed, unsure, and at one point I even tried to walk away because it all felt like too much. But you didn’t, you didn’t give up. You held us together when I was ready to let go. You chose patience over pride, understanding over ego, and us over everything. Looking back now, that was the moment I realized how strong you really are, and how lucky I am that you fought for something I was too overwhelmed to see clearly.</p> </div> </div> <div class="timeline-item right"> <div class="timeline-content"> <h3>Rough Phase 2</h3> <p>The second rough phase came when I was struggling within myself. Not finding a job, feeling lost, becoming distant and too caught up in my own worries. I turned inward when I should have leaned toward you. And still, you tried to hold everything together. You carried more than you should have until you finally reached your limit. By the time I truly realized what I was risking, you were already exhausted. But even then, you gave us one last chance. Not because it was easy, but because you believed in what we had. That phase didn’t break us, it forced me to grow. And somehow, through all of it, we were still together.</p> </div> </div> <div class="timeline-item left"> <div class="timeline-content"> <h3>Job Struggle</h3> <p>There was a phase where everything felt new and overwhelming at the same time. A new town, new people, a new company, strange timings, and a job I wasn’t even sure I liked. I was frustrated more than I admitted, irritated more than I showed, dealing with gym setbacks, insecurities, and my own internal battles. I wasn’t always easy to deal with during that time. But you were steady. You listened, you reassured, you stayed calm when I wasn’t. When everything around me felt unstable, you were the one constant that held me together without even making it a big deal. That phase didn’t just test me, it showed me who was truly beside me.</p> </div> </div> <div class="timeline-item right"> <div class="timeline-content"> <h3>We Survived It</h3> <p>After everything, the misunderstandings, the overwhelming phases, the distance, the pressure, the moments where it felt heavy, we still stayed. We adjusted when it was uncomfortable, learned things about each other we didn't know before, and slowly figured out how to love better, not just harder. We made mistakes, we fixed them, we grew through them. And in between all of it, we still had our happy moments, our soft conversations, our laughter, our quiet loving times that reminded us why we started in the first place. Somehow, through all the chaos, what we felt for each other only became stronger, strong enough that nothing else could really compare.</p> </div> </div> <div class="timeline-item left"> <div class="timeline-content"> <h3>Planning Our Future</h3> <p>And now, when I think about us, I don’t just think about what we survived, I think about what we’re building. I picture us going out together without checking the time, exploring new places, trying random street food like golgappa and arguing about who got the better one. I imagine small trips, long walks, shared dreams, and quiet evenings where nothing feels rushed. Not just loving each other in words, but choosing each other in everyday life. Growing together, laughing together, building something stable and real. Not a temporary story, but a future that feels natural, peaceful, and ours.</p> </div> </div> <div class="timeline-item right highlight" id="final-year"> <div class="timeline-content"> <h3>1 Year Complete</h3> <p>Still choosing you.</p> </div> </div> </div> </section>
+
+<!-- Countdown Section -->
+<section id="countdown">
+    <h2>Countdown to May 9th ❤️</h2>
+    <p>The day we will meet for the first time</p>
+
+    <div class="countdown-container">
+        <div class="time-box">
+            <span id="days">00</span>
+            <small>Days</small>
+        </div>
+        <div class="time-box">
+            <span id="hours">00</span>
+            <small>Hours</small>
+        </div>
+        <div class="time-box">
+            <span id="minutes">00</span>
+            <small>Minutes</small>
+        </div>
+        <div class="time-box">
+            <span id="seconds">00</span>
+            <small>Seconds</small>
+        </div>
+    </div>
+</section>
+
+<!-- Slideshow Section -->
+<section id="slideshow-section">
+    <div class="carousel-3">
+        <img id="left-img">
+        <img id="center-img" class="active">
+        <img id="right-img">
+    </div>
+</section>
+
+<!-- Reasons -->
+<section id="reasons">
+    <h2>Why I Still Choose You</h2>
+    <div class="reason-card">
+        <p id="reason-text">Click below to see one reason</p>
+    </div>
+    <button id="reason-btn">Tell me one more reason</button>
+</section>
+
+<!-- Secret Modal -->
+<div id="secret-modal">
+    <div class="modal-content">
+        <h2>You found the surface.</h2>
+<p>But this isn't everything.</p>
+
+<p class="secret-hint">Some things reveal themselves only if you insist.</p>
+
+<div class="modal-buttons">
+    <button id="deeper-btn" class="primary-btn">Go Deeper</button>
+    <button id="close-modal" class="secondary-btn">Close</button>
+</div>
+    </div>
+</div>
+
+<!-- Deep Secret Letter -->
+<div id="deep-secret">
+    <div class="letter-container">
+        <h2>Not Just Today.</h2>
+
+        <p>This year was not easy...</p>
+        <p>I don’t just love you when things are soft...</p>
+        <p>I am not here for moments...</p>
+
+        <p class="promise">
+            And if life stays unpredictable,  
+            I still choose you.
+        </p>
+
+        <button id="close-deep">Come Back</button>
+    </div>
+</div>
+
+<!-- YEAR 2 SECTION -->
+<section id="year-two">
+    <div class="year-two-content">
+        <h2>Ready for Year 2?</h2>
+        <p>One year was proof. The next will be purpose.</p>
+
+        <button id="year-two-btn">Begin Year 2</button>
+
+        <div id="final-message">
+            <p class="reveal-line">Year one was survival.</p>
+            <p class="reveal-line">Year two will be building.</p>
+            <p class="reveal-line">Not because it’s easy.</p>
+            <h3 class="reveal-line bold-line">But because it’s you.</h3>
+            <h2 class="ultimate-line">
+                I choose you again.<br>
+                And again.<br>
+                And again.
+            </h2>
+        </div>
+    </div>
+</section>
+
+<!-- GROWTH LETTER (MOVED OUTSIDE YEAR 2 SECTION) -->
+<div id="growth-letter">
+    <div class="growth-card">
+        <h3>The Part I Never Said Properly</h3>
+        <p>
+There are so many things I’ve felt for a long time but never said properly. And I think you deserved to hear them without a fight, without a heavy moment forcing them out of me. So I’m saying them now.
+
+I know there were times when I didn’t show up for you the way I should have. During my stressful phases, placements, my insecurities, my worst moods, I became distant. I became self-focused. Sometimes I was rude without realising how much it could hurt you. Sometimes I postponed you, thinking we would “talk later,” not understanding that the moment itself mattered. I made you feel secondary in situations where you should have felt chosen without doubt.
+
+And what hurts me the most is knowing that you felt that way because of me.
+
+It wasn’t just once. It happened more than it should have. Even after you gave me a second chance, even after you stayed when you didn’t have to, I still made mistakes. I still had moments where I let my insecurities speak louder than my love. I still failed to prioritise you the way you deserved sometimes.
+
+But through all of that… you stayed.
+
+You stayed when you were hurt.
+You stayed when you were disappointed.
+You stayed when it would have been easier to walk away.
+
+You forgave me quietly so many times. You chose us again and again, even when I was still learning how to be better for you. And I don’t think I ever properly told you how much that means to me.
+
+Your second chance wasn’t small. It was love. Real love. The kind that doesn’t give up easily. The kind that believes even when it’s tired. And I’m so grateful that you believed in me when I was still figuring myself out.
+
+I know I still make mistakes. I know I’m not perfect. I know I’m still growing. But even in my flaws, you saw something worth staying for. And that is something I hold very close to my heart.
+
+You are not temporary to me. You are not replaceable. You are not “just someone.” You are someone who has stood beside me through my worst phases and still chose to love me. And I don’t take that lightly anymore.
+
+I’m not writing this to ask for forgiveness or to make big dramatic promises. I’m writing this because I want you to know how deeply I appreciate you. How grateful I am that you stayed. How much I value your patience, your softness, your strength, and the love you’ve given me even when I didn’t fully deserve it.
+
+If I could go back, I would have said all of this to you on a random peaceful day. But even if it’s late, it’s honest.
+
+I’m thankful for you. For your heart. For your second chances. For choosing me even when I was still learning how to choose you properly.
+
+And I don’t ever want you to doubt how much that means to me.
+        </p>
+        <button id="finish-letter">And after all that…</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
